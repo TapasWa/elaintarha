@@ -13,7 +13,7 @@ public class App
 
     boolean exit = false;
     while(!exit){
-        System.out.println("1) Luo uusi eläin, 2) Listaa kaikki eläimet, 3) Juoksut eläimiä, 0) Lopeta ohjelma");
+        System.out.println("1) Luo uusi eläin, 2) Listaa kaikki eläimet, 3) Juoksuta eläimiä, 0) Lopeta ohjelma");
         if (sc.hasNext()){
             int i =0;
             String stringInput= sc.nextLine();
